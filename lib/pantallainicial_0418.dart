@@ -9,8 +9,8 @@ class PantallaInicial_0418 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Pantalla Inicial Uribe 0418"),
-        backgroundColor: Colors.black,
+        title: Text("Card container Uribe 0418"),
+        backgroundColor: Color(0xff55b9e7),
       ),
       body: Center(
           child: Column(
