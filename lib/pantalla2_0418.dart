@@ -9,26 +9,20 @@ class Pantalla2_0418 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text(" Pantalla2 Uribe0418"),
-        backgroundColor: Color(0xff3a8aae),
+        backgroundColor: Color(0xff42bc98),
       ),
       body: Center(
         child: Container(
-          width: double.infinity,
-          height: 300,
-          color: Color(0xff5091ad),
-          child: Card(
-            shape:
-                RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
-            color: Color(0xffd2eaf4),
-            margin: EdgeInsets.all(30),
-            child: Padding(
-              padding: EdgeInsets.all(70),
-              child: Text(
-                "Container Card",
-                style: TextStyle(fontSize: 30),
-                textAlign: TextAlign.center,
-              ),
-            ),
+          color: Color(0xffc4f6e7),
+          constraints: BoxConstraints(
+            minHeight: 100,
+            minWidth: 200,
+            maxHeight: 300,
+            maxWidth: 300,
+          ),
+          child: Text(
+            'Vivian Uirbe 0418',
+            style: TextStyle(fontSize: 30),
           ),
         ),
       ),
